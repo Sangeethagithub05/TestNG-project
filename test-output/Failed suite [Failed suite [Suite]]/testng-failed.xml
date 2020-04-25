@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <parameter name="pass" value="12345"/>
+    <parameter name="email" value="sangeetha"/>
+    <classes>
+      <class name="org.acc.Testng.Practice">
+        <methods>
+          <include name="login"/>
+          <include name="startTime"/>
+          <include name="endDate"/>
+        </methods>
+      </class> <!-- org.acc.Testng.Practice -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
